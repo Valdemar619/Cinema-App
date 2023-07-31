@@ -1,11 +1,11 @@
-﻿# <img src="https://cdn-icons-png.flaticon.com/512/7603/7603173.png" width="48" height="48"> cinema-app<img src="https://cdn-icons-png.flaticon.com/512/7603/7603173.png" width="48" height="48">
+﻿# <img src="https://cdn-icons-png.flaticon.com/512/7603/7603173.png" width="48" height="48"> cinema-app <img src="https://cdn-icons-png.flaticon.com/512/7603/7603173.png" width="48" height="48">
 
 REST web application for ticket reservation. It implements the main functions, such as:
 - displaying movies that are currently at the box office;
 - shopping cart with the ability to add tickets to it and create an order based on the added tickets;
 - searching for available movie sessions by date.
 
-<img src="https://hhayproject.myshopify.com/cdn/shop/products/HHAY-sticker-origproject-3insq_1_1014x.png?v=1601779115" width="100" height="100">structure:
+<img src="https://hhayproject.myshopify.com/cdn/shop/products/HHAY-sticker-origproject-3insq_1_1014x.png?v=1601779115" width="100" height="100"> structure:
 
 - DAO (Data Access Object) - DAO is the data access layer responsible for interacting with the database. This layer implements operations related to retrieving, storing, updating, and deleting data.
 - Service - The service layer is responsible for the business logic of the application. It handles data processing, executes business rules, and coordinates actions between the DAO and other components of the application.
@@ -43,7 +43,7 @@ User-only Endpoints:
 - src/main/java - contains the entire source code of the program
 - src/main/resources - contains properties for connecting to the database
 
-<img src="https://www.seekpng.com/png/detail/4-48835_clip-black-and-white-laptop-free-for-download.png" width="48" height="48">Technologies used:
+<img src="https://cdn-icons-png.flaticon.com/256/4359/4359784.png" width="48" height="48">Technologies used:
 
 - Java 17
 - Tomcat 9.0.75
@@ -56,7 +56,7 @@ User-only Endpoints:
 - Hibernate 5.6.14.Final
 - JDBC
 
-<img src="https://cdn.icon-icons.com/icons2/2716/PNG/512/rocket_launch_icon_172923.png"  width="48" height="48">Instructions for launching the project:
+<img src="https://juststickers.in/wp-content/uploads/2017/06/rocket.png">Instructions for launching the project:
 1) Clone the project from GitHub;
 2) Install Apache Tomcat version 9.x.x.;
 3) Install MySql;
