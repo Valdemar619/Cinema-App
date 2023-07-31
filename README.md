@@ -1,4 +1,4 @@
-﻿# <img src="https://img.myloview.com/stickers/photo-camera-vintage-retro-color-white-background-700-144112343.jpg" width="48" height="48"> cinema-app<img src="https://img.myloview.com/stickers/photo-camera-vintage-retro-color-white-background-700-144112343.jpg" width="48" height="48">
+﻿# <img src="https://dbdzm869oupei.cloudfront.net/img/sticker/preview/329.png" width="48" height="48"> cinema-app<img src="[https://img.myloview.com/stickers/photo-camera-vintage-retro-color-white-background-700-144112343.jpg](https://dbdzm869oupei.cloudfront.net/img/sticker/preview/329.png)" width="48" height="48">
 
 REST web application for ticket reservation. It implements the main functions, such as:
 - displaying movies that are currently at the box office;
