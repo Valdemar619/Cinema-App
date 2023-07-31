@@ -56,7 +56,7 @@ User-only Endpoints:
 - Hibernate 5.6.14.Final
 - JDBC
 
-<img src="https://juststickers.in/wp-content/uploads/2017/06/rocket.png">Instructions for launching the project:
+<img src="https://juststickers.in/wp-content/uploads/2017/06/rocket.png" width="48" height="48">Instructions for launching the project:
 1) Clone the project from GitHub;
 2) Install Apache Tomcat version 9.x.x.;
 3) Install MySql;
