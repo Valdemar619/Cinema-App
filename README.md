@@ -1,4 +1,4 @@
-﻿🎥Cinema-App🎥
+🎥 cinema-app 🎥
 
 REST web application for ticket reservation. It implements the main functions, such as:
 - displaying movies that are currently at the box office.
