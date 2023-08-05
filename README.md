@@ -1,24 +1,21 @@
-﻿# <img src="https://cdn-icons-png.flaticon.com/512/7603/7603173.png" width="48" height="48"> cinema-app <img src="https://cdn-icons-png.flaticon.com/512/7603/7603173.png" width="48" height="48">
+﻿#🎥Cinema-App🎥
 
 REST web application for ticket reservation. It implements the main functions, such as:
-- displaying movies that are currently at the box office;
-- shopping cart with the ability to add tickets to it and create an order based on the added tickets;
+- displaying movies that are currently at the box office.
+- shopping cart with the ability to add tickets to it and create an order based on the added tickets.
 - searching for available movie sessions by date.
 
-<img src="https://hhayproject.myshopify.com/cdn/shop/products/HHAY-sticker-origproject-3insq_1_1014x.png?v=1601779115" width="100" height="100"> structure:
-
+🌐 Project structure:
 - DAO (Data Access Object) - DAO is the data access layer responsible for interacting with the database. This layer implements operations related to retrieving, storing, updating, and deleting data.
 - Service - The service layer is responsible for the business logic of the application. It handles data processing, executes business rules, and coordinates actions between the DAO and other components of the application.
-- Controller - The Controller layer serves as the entry point for external requests to the application
+- Controller - The Controller layer serves as the entry point for external requests to the application.
 
-Entities relations diagram:
+📝 Database Schema:
 ![img_1.png](img_1.png)
 
-Endpoints
-The Cinema-app provides the following endpoints:
+Endpoint description (with roles and http-methods):
 
 User and Admin Endpoints:
-
 - POST: /register - User registration.
 - GET: /cinema-halls - View cinema halls.
 - GET: /movies - View movies.
@@ -33,17 +30,16 @@ Admin-only Endpoints:
 - GET: /users/by-email - Find a user by their email address.
 
 User-only Endpoints:
-
 - GET: /orders - View user's orders.
 - POST: /orders/complete - Complete an order.
 - PUT: /shopping-carts/movie-sessions - Update the shopping cart with movie sessions.
 - GET: /shopping-carts/by-user - View the shopping cart for a specific user.
 
 <Project structure:
-- src/main/java - contains the entire source code of the program
-- src/main/resources - contains properties for connecting to the database
+- src/main/java - contains the entire source code of the program.
+- src/main/resources - contains properties for connecting to the database.
 
-<img src="https://cdn-icons-png.flaticon.com/256/4359/4359784.png" width="48" height="48">Technologies used:
+💻 Technologies used:
 
 - Java 17
 - Tomcat 9.0.75
@@ -56,11 +52,12 @@ User-only Endpoints:
 - Hibernate 5.6.14.Final
 - JDBC
 
-<img src="https://juststickers.in/wp-content/uploads/2017/06/rocket.png" width="48" height="48">Instructions for launching the project:
-1) Clone the project from GitHub;
-2) Install Apache Tomcat version 9.x.x.;
-3) Install MySql;
-4) Install Postman for sending requests;
-5) Congigure db.properties with correct data;
-6) Add TomCat configuration;
+🚀 Instructions for launching the project:
+
+1) Clone the project from GitHub.
+2) Install Apache Tomcat version 9.x.x.
+3) Install MySql.
+4) Install Postman for sending requests.
+5) Congigure db.properties with correct data.
+6) Add TomCat configuration.
 7) Run the project.
