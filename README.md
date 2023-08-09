@@ -58,6 +58,8 @@ User-only Endpoints:
 2) Install Apache Tomcat version 9.x.x.
 3) Install MySql.
 4) Install Postman for sending requests.
-5) Congigure db.properties with correct data.
-6) Add TomCat configuration.
-7) Run the project.
+5) Create an empty database.
+6) Set up Database connectivity in src/main/resources/db.properties file with your own URL, username, password and JDBC driver.
+7) Configure Tomcat server.
+8) Add New Configuration/Tomcat Server/Local/Setup deployment configurations
+9) Run the project.
