@@ -61,5 +61,5 @@ User-only Endpoints:
 5) Create an empty database.
 6) Set up Database connectivity in src/main/resources/db.properties file with your own URL, username, password and JDBC driver.
 7) Configure Tomcat server.
-8) Add New Configuration/Tomcat Server/Local/Setup deployment configurations
+8) Add New Configuration/Tomcat Server/Local/Setup deployment configurations.
 9) Run the project.
