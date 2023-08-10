@@ -1,16 +1,17 @@
-﻿# 🎥 Cinema-App 🎥
+﻿#  <h1 align= "center">🎥 Cinema-App 🎥
 
+## Introduction
 REST web application for ticket reservation. It implements the main functions, such as:
 - displaying movies that are currently at the box office.
 - shopping cart with the ability to add tickets to it and create an order based on the added tickets.
 - searching for available movie sessions by date.
 
-🌐 Project structure:
+## 🌐 Project structure:
 - DAO (Data Access Object) - DAO is the data access layer responsible for interacting with the database. This layer implements operations related to retrieving, storing, updating, and deleting data.
 - Service - The service layer is responsible for the business logic of the application. It handles data processing, executes business rules, and coordinates actions between the DAO and other components of the application.
 - Controller - The Controller layer serves as the entry point for external requests to the application.
 
-📝 Database Schema:
+## 📝 Database Schema:
 ![img_1.png](img_1.png)
 
 Endpoint description (with roles and http-methods):
@@ -39,7 +40,7 @@ Project structure:
 - src/main/java - contains the entire source code of the program.
 - src/main/resources - contains properties for connecting to the database.
 
-💻 Technologies used:
+## 💻 Technologies used:
 
 - Java 17
 - Tomcat 9.0.75
@@ -52,7 +53,7 @@ Project structure:
 - Hibernate 5.6.14.Final
 - JDBC
 
-🚀 Instructions for launching the project:
+## 🚀 Instructions for launching the project:
 
 1) Clone the project from GitHub.
 2) Install Apache Tomcat version 9.x.x.
