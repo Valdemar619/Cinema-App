@@ -35,7 +35,7 @@ User-only Endpoints:
 - PUT: /shopping-carts/movie-sessions - Update the shopping cart with movie sessions.
 - GET: /shopping-carts/by-user - View the shopping cart for a specific user.
 
-<Project structure:
+Project structure:
 - src/main/java - contains the entire source code of the program.
 - src/main/resources - contains properties for connecting to the database.
 
